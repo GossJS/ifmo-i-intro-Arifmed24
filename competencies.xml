@@ -1,14 +1,4 @@
 <?xml version="1.0" ?>
-<!DOCTYPE aribal [
-        <!ELEMENT aribal (competencies)>
-        <!ELEMENT competencies (competency+)>
-        <!ELEMENT competency (technology*)>
-        <!ELEMENT technology EMPTY>
-        <!ATTLIST competency in CDATA #REQUIRED>
-        <!ATTLIST competency level CDATA #REQUIRED>
-        <!ATTLIST competency experience CDATA #IMPLIED>
-        <!ATTLIST technology name CDATA #REQUIRED>
-        ]>
 <aribal>
     <competencies>
         <competency in="HTML" level="basic syntax"/>
